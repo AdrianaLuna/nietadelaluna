@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&family=Poor+Story&display=swap');
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    align-items: center;
+
+}
+
+.logotipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoheader {
+    font-family:'Birthstone Bounce', cursive;
+    color:rgb(78, 22, 131);
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.logo {
+    width:150px;
+}
+
+nav {
+    background-color: rgb(240, 228, 250);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    color: blanchedalmond;
+}
+
+.nav-link {
+    color: goldenrod;
+    text-decoration: none;
+    }
+
+.nav-link:hover {
+    color: rgb(88, 41, 131);
+    font-style: oblique;
+    font-weight: bold; 
+
+}
+
+.img-fluid {
+    border-radius: 30px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+.card {
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px rgb(197, 186, 204) ;
+}
+.card:hover {
+    box-shadow: 5px 5px 20px rgb(95, 90, 99);
+    transform: translateY(-4%);
+}
+.preguntas {
+    width: 60vw;
+    margin: 15rem;
+  
+
+}
+
+p {
+    font-family: sans-serif;
+}
+footer {
+    background-color: #8aa5d3;
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+footer i  {
+    color: rgb(24, 6, 41);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.iconowhat {
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
